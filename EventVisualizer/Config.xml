@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CONFIG>
+<SERVERConfig>
+  <SERVER Name="LOCAL" TXNPath="\\cbwfint08\Websites\Standard BancsLink V3">
+    <INSTANCE>.</INSTANCE>
+  </SERVER>
+  <SERVER Name="INT" TXNPath="\\cbwfint08\Websites\Standard BancsLink V3">
+    <INSTANCE>CBWFINT07</INSTANCE>
+    <INSTANCE>CBWFINT08</INSTANCE>
+  </SERVER>
+</SERVERConfig>
+  <LOGConfig>
+    <INSTANCE>FNSBANCSLink</INSTANCE>
+  </LOGConfig>
+  <SourceConfig>
+    <SYSTEMName Name="SBL">CFNSTCPSocket</SYSTEMName>
+    <SYSTEMName Name="SSS">CFNSCommunications</SYSTEMName>
+  </SourceConfig>
+</CONFIG>
